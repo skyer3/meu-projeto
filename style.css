@@ -1,0 +1,68 @@
+body {
+    color: white;
+    background-color: rgb(22, 20, 34);
+    margin: 0px;
+    font-family: "New Amsterdam", sans-serif;
+    margin-bottom: 50px;
+}
+
+header {
+border-bottom: solid 2px rgb(153, 30, 60);
+padding: 20px;
+font-size: 50px;
+color: rgb(153, 30, 60);
+}
+
+.newest-episode {
+    background: rgb(240 67 153);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+
+}
+
+.textos-de-tela {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+}
+img {
+    height: 300px;
+}
+
+.other-episodes {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.episodes-section {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.other-episodes img {
+    opacity: 0.5;
+    height 300px;
+}
+
+.other-episodes img:hover {
+    opacity: 1.0;
+    border: 5px solid rgb(255, 86, 86)
+}
+
+.episodes-section h2 {
+    color: rgb(153, 30, 60);
+}
+
+section h3 {
+    font-size: 70px;
+    color: rgb(22, 20, 34);
+}
